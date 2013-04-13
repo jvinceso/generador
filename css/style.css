@@ -1,0 +1,64 @@
+/* Created by @jvinceso */
+body{
+	background-color: #883e7c;
+	color:white;
+	font-family: Helvetica,Arial;
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+fieldset{
+	background: white;	
+	border-radius:0.5em;
+	color:black;	
+	margin: auto;
+	max-width: 70%;
+	text-align: center;
+	width:20%;
+}
+legend{
+	background: rgba(136,62,124,0.8);
+	border-radius:0.5em;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+@media(max-width:250px){
+	#cboTablas{ width: 15%; }
+}
+#CamposTabla ul{ list-style: square outside none; text-align: start; }
+#CamposTabla{
+	margin: auto;
+	text-align: center;
+	/*width: 70%;*/
+}
+#cboTablas{ width: 30%; }
+#log{
+	background: white;	
+	border-radius:0.5em;
+	color : green;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+#sub-name{
+	background: white;
+	border-radius:0.5em;
+	color: black;
+	display: block;
+	margin :1em auto ;
+	padding: 1em;
+	text-align: center;
+	width:70%;
+}
+#tablas{text-align:center; }
+
+.btn{     background: #E6D527; border-radius: 0.5em; }
+.chzn-drop{color:black; }
+.chzn-container { display: inline-table; }
+.naranja{ color:orange; font-weight:bold; }
+.hidden{ display: none; }
+.show{ display: block; }
